@@ -1,5 +1,6 @@
 package stars;
 
+//1
 //task - create 3 pictures with stars
 public class Stars {
 	public static void main(String[] args) {
@@ -19,7 +20,7 @@ public class Stars {
 
 		// 2nd picture - pyramid/christmas tree
 		// height and starting number of stars (-1)
-		int rows2 = 4, k = 0;
+		int rows2 = 6, k = 0;
 
 		// prints spaces in acsending order by 1
 		for (int i = 1; i <= rows2; ++i, k = 0) {
@@ -52,9 +53,10 @@ public class Stars {
 				System.out.println();
 			}
 
-			// maximum number of stars for rows3-1 for descending part
-			int rows4 = 3;
+			// maximum number of stars for descending part
+			int rows4 = rows3 - 1;
 
+			// prints stars in descending order
 			for (int i = rows4; i >= 1; --i) {
 				for (int j = 1; j <= i; ++j) {
 					System.out.print("*");
