@@ -16,6 +16,7 @@ public class Chessboard {
 			for (int j = 0; j <= 7; j++) {
 				// print %2 of pomocna and space
 				System.out.print(pomocna % 2 + " ");
+				// add 1 so value is switched
 				pomocna++;
 			}
 		}
