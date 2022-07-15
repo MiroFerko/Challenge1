@@ -4,7 +4,8 @@ package chessboard;
 public class Chessboard {
 	public static void main(String args[]) {
 		int pomocna = 0;
-
+		System.out.print("CHESSBOARD");
+		
 		// loop for 8 rows
 		for (int i = 0; i <= 7; i++) {
 			// new line after each row
